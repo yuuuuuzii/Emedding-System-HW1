@@ -106,11 +106,13 @@ void Periodical_Task(void *argument);
 void Press_task(void *argument);
 void periodic_led(void *argument);
 void Timer_GPIO_PIN_13_Callback(void *argument);
+void Debounce_task(void *argument);
 
 /**
   * @brief  The application entry point.
   * @retval int
   */
+
 int main(void)
 {
   /* MCU Configuration--------------------------------------------------------*/
@@ -190,6 +192,7 @@ void SystemClock_Config(void)
   * @param None
   * @retval None
   */
+
 static void MX_GPIO_Init(void)
 {
   GPIO_InitTypeDef GPIO_InitStruct = {0};
