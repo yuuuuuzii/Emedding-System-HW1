@@ -52,3 +52,7 @@ The User Button on this board is worn, so while it is held down the signal can b
 2. `Debounce_task` waits 30 ms with `osDelay`, then reads the settled pin level.
 3. `stable_level` tracks the last accepted state, so extra wake-ups caused by bouncing are ignored.
 4. On release, the press duration decides the message sent to `Queue_press`: `1` for long press (≥ 1 s), `0` for short press.
+
+### Demo 
+
+![Demo](demo.gif)
