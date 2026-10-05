@@ -1,7 +1,3 @@
-
-
-Uploading IMG_6968.MOV…
-
 # STM32 FreeRTOS LED Blinking Lab
 
 Two LED2 blinking procedures on STM32 using CMSIS-RTOS v2 (FreeRTOS), with a semaphore protecting the shared LED. Completes the **Basic Problem** and **Option Problem A**.
